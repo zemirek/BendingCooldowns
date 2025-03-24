@@ -1,0 +1,14 @@
+name: BendingCooldowns
+version: "1.0"
+authors: [Literka]
+main: me.literka.BendingCooldowns
+api-version: 1.18
+depend: [ProjectKorra]
+commands:
+  bendingcooldowns:
+    aliases: [bcooldowns]
+    usage: /<command>
+permissions:
+  bendingcooldowns.reload:
+    default: op
+    description: Grants access to reload command for BendingCooldowns
