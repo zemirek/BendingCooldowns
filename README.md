@@ -11,6 +11,7 @@ BendingCooldowns is a Spigot plugin designed to manage cooldowns in [ProjectKorr
 - **Cooldown Flags**: Control when cooldowns are applied (start, progress, end, cooldown, collision).
 
 ## Configuration
+**⚠️ Warning:** Ability names and group names are **case-sensitive**. For example, `fireblast` will not work because the ability is called `FireBlast`.
 - **Groups**: Define sets of abilities that can be referenced collectively.
 - **Cooldowns**: Assign cooldowns between abilities with optional flags.
 - **Flags**:
